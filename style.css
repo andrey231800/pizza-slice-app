@@ -1,0 +1,47 @@
+.circle {
+    position: relative;
+    border: 1px solid black;
+    padding: 0;
+    margin: 1em auto;
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    list-style: none;
+    overflow: hidden;
+  }
+  li {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    transform-origin: 0% 100%;
+    border: 1px black solid;
+  }
+  .description, .load {
+      text-align: center;
+      font-size: 25px;
+  }
+
+  .load-btn {
+      display: block;
+      margin: 0 auto;
+      font-size: 25px;
+      background-color: rgba(95, 46, 18, 0.685);
+      border-radius: 10%;
+      color: #FFF;
+      margin-bottom: 5px;
+      margin-top: 130px;
+      border: rgba(5, 5, 5, 0.5) 3px solid;
+      cursor: pointer;
+  }
+  
+  .descr {
+      color: orangered;
+  }
+
+  .circle {
+    display: none;
+  }
+  
